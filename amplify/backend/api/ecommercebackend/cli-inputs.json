@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/auth": {
+      "name": "/auth",
+      "lambdaFunction": "authfunction",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/register": {
+      "name": "/register",
+      "lambdaFunction": "registerfunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

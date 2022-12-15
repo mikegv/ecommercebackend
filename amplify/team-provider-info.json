@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ecommercebackend-dev-122632-authRole",
+      "UnauthRoleArn": "arn:aws:iam::045433715849:role/amplify-ecommercebackend-dev-122632-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::045433715849:role/amplify-ecommercebackend-dev-122632-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-ecommercebackend-dev-122632-deployment",
+      "UnauthRoleName": "amplify-ecommercebackend-dev-122632-unauthRole",
+      "StackName": "amplify-ecommercebackend-dev-122632",
+      "StackId": "arn:aws:cloudformation:us-west-1:045433715849:stack/amplify-ecommercebackend-dev-122632/452b4670-7a5b-11ed-aa3d-022146513803",
+      "AmplifyAppId": "d327337ny9o6t6"
+    },
+    "categories": {
+      "function": {
+        "authfunction": {
+          "deploymentBucketName": "amplify-ecommercebackend-dev-122632-deployment",
+          "s3Key": "amplify-builds/authfunction-32702f6c7a4c526c4c57-build.zip",
+          "databaseUrl": "mongodb+srv://admin:WQn7zqk9e3G0SYiZ@cluster0.blzafbu.mongodb.net/?retryWrites=true&w=majority",
+          "accessTokenSecret": "005805bef59a132dc80ed14d2468a73700d8b0b325f094eb61d082de18ed936a66e6f4799f27d1b136aa0ae3a564542b3a3abbb0d9de10abb2c8d34efe015ce7"
+        },
+        "registerfunction": {
+          "deploymentBucketName": "amplify-ecommercebackend-dev-122632-deployment",
+          "s3Key": "amplify-builds/registerfunction-30454a784e6d3730444d-build.zip"
+        }
+      },
+      "api": {
+        "ecommercebackend": {}
+      }
+    }
+  }
+}

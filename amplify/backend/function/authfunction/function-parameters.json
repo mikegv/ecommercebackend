@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "databaseUrl",
+      "environmentVariableName": "DATABASE_URL"
+    },
+    {
+      "cloudFormationParameterName": "accessTokenSecret",
+      "environmentVariableName": "ACCESS_TOKEN_SECRET"
+    }
+  ]
+}
