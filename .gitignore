@@ -20,4 +20,5 @@ amplifytools.xcconfig
 **.sample
 */node_modules/
 amplify/backend/function/authfunction/src/
+.env
 #amplify-do-not-edit-end
